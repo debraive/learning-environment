@@ -1,0 +1,26 @@
+body{
+  color: black;
+  font-family: "roboto";
+  font-size: 14px;
+}
+h1{
+  color: #FF7A0D;
+  font-size: 20px;
+  text-align: left;
+}
+h2{
+  color: #E8990C;
+  font-size: 15px;
+  font-family: "verdana";
+}
+p{
+  color: black;
+  font-family: "helvetica";
+  text-align: justify;
+}
+ol{
+  font-family: "helvetica";
+}
+ul {
+  font-family: "times";
+}

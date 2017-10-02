@@ -1,76 +1,56 @@
-index.html
-Le <strong>markdown <strong> est un système de formatage de texte minimaliste. Il est de plus en plus utilisé. C'est un système d'édition et de formatage de texte. Dans ce document, nous allons découvrir les fonctionnalités de base. <br>
-Vous trouverez ci-dessous l'explication des fonctionnalités suivantes:
-<li> une liste à puces </li>
-<li> une liste numérotée </li>
-<li> 2 ou 3 niveaux de titres et sous-titres </li>
-<li> des liens </li>
-<li> insertion d’une image statique </li>
-<li> insertion d’une image animée </li>
-<li> au moins une liste (à puce ou ordonnée) imbriquées (donc * plusieurs niveaux hiérarchiques)</li>
-<li> un bout de code, avec coloration syntaxique.</li> <br>
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8"/>
+  </head>
+  <body>
+    <h1> Partons à la découverte du markdown </h1>
+      <p>
+      Le <strong>markdown </strong> est un système de formatage de texte minimaliste. Il est de plus en plus utilisé. C'est un système d'édition et de formatage de texte. Dans ce document, nous allons découvrir les fonctionnalités de base. <br>
+      Vous trouverez ci-dessous l'explication des fonctionnalités suivantes:
+    </p>
+<ul>
+  <li> une liste à puces </li>
+  <li> une liste numérotée </li>
+  <li> des liens </li>
+  <li> insertion d’une image statique </li>
+  <li> insertion d’une image animée </li>
+  <li> au moins une liste (à puce ou ordonnée) imbriquées (donc * plusieurs niveaux hiérarchiques)</li>
+  <li> un bout de code, avec coloration syntaxique.</li> <br>
+</ul>
 
-
-<h2>La liste à puce, ou liste non ordonnée </h2>
-
-
-<li> Rien de tel qu'un petit briefing de réunion en bulletpoint.</li>
-<li> C'est chic et pratique </li>
-<li> On l'apprecie pour sa clarté.</li>
-<li> Elle ravira les esprits cartésiens.</li>
-
-<h2> La liste numérotée, liste ordonnée </h2> <br>
+<h3>La liste à puce, ou liste non ordonnée </h3>
+<ul>
+  <li> Rien de tel qu'un petit briefing de réunion en bulletpoint.</li>
+  <li> C'est chic et pratique </li>
+  <li> On l'apprecie pour sa clarté.</li>
+  <li> Elle ravira les esprits cartésiens.</li>
+</ul>
+<h3> La liste numérotée, liste ordonnée </h3>
 <ol>
 <li> En cas de rush, la liste ordonnée vous permettra de prioriser les tâches.</li>
 <li> Très utile pour expliquer les marches à suivre d'un programme ou d'une activité.</li>
 <li> Son esthétisme numérique ravira le matheux qui sommeille en vous.</li>
-</ol> <br>
-Pour en savoir plus sur le sujet n'hésitez pas à consulter le [document suivant](Markdown_2.md)
-
-<h1> Titres </h1> <br>
-
-Les titres sont hiéarchisé en h+'un nombre', qui correspondent au niveau de titre souhaité (le HTML propose 6 niveaux de titres de <`h1`> à <`h6`>).
-
+</ol>
+<h1> Titres </h1>
+<p>
+  Les titres sont hiéarchisé en h+'un nombre',
+  qui correspondent au niveau de titre souhaité (le HTML propose 6 niveaux de titres de <`h1`> à <`h6`>).</p>
 <h1> un titre de premier niveau </h1>
 <h2> un titre de deuxième niveau </h2>
 <h3> un titre de troisième niveau </h3>
 <h4> un titre de quatrième niveau </h4>
 <h5> un titre de cinquième niveau </h5>
 <h6> un titre de sixième niveau </h6>
-
 <br>
-<br>
-Pour les deux premiers niveaux de titre (<`h1`> et <`h2`>), il est également possible de souligner le titre avec des = ou des - (leur nombre réel importe peu, mais il doit être supérieur à 2).
-
-`Titre de niveau 1`
-`=====================`
-
-`Titre de niveau 2`
-`-------------------`
-
-<h1>Tableaux</h1>
------------
-
-Pour créer des tableaux (balises HTML <`tr`> et <`th`>)
+<p> Pour les deux premiers niveaux de titre (<`h1`> et <`h2`>), il est également possible de souligner le titre avec des = ou des - (leur nombre réel importe peu, mais il doit être supérieur à 2).
+Pour créer des tableaux (balises HTML <`tr`> et <`th`>)</p>
 <br>
 
-```
-| Titre 1       |     Titre 2     |   Titre 3      |
-| ------------- | -------------   | ---------      |
-| Colonne       |     Colonne     |      Colonne   |
-| Alignée à     |      Alignée au |     Alignée à  |
-| Gauche        |      Centre     |      Droite    |
-```
-
-| Titre 1       |     Titre 2     |   Titre 3      |
-| ------------- | -------------   | ---------      |
-| Colonne       |     Colonne     |      Colonne   |
-| Alignée à     |      Alignée au |     Alignée à  |
-| Gauche        |      Centre     |      Droite    |
-
-
-# Liens
----------
-Pour créer des liens (balise HTML <`a`>) :
-
-<p> Il vous suffit de mettre votre lien dans la balise <'a'>. Pour en savoir plus rendez vous sur <a> https://openclassrooms.com" </a> </p>
+<h1> Liens </h1>
+<p>
+  Pour créer des liens (balise HTML <`a`>) :
+  Il vous suffit de mettre votre lien dans la balise <'a'>. Pour en savoir plus rendez vous sur <a href = "https://openclassrooms.com" > le lien suivant </a>
+</p>
+</body>
