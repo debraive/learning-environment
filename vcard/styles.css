@@ -1,0 +1,84 @@
+body{
+  background-image: url(https://s1.favim.com/orig/9/art-bird-birds-black-and-white-photo-Favim.com-170039.jpg);
+}
+.main{
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 20% 60%;
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+.rectangle1{
+  height: 100vh;
+  background-image: linear-gradient(#E8CC17, #E8BC18);
+  font-family: "Dosis";
+  font-size: 20px;
+  padding:20px;
+  padding-top: 50px;
+  color:#FFFFFF;
+  grid-column: 1;
+  float: right;
+
+}
+.rectangle_2{
+  margin: 200px;
+  margin-top: 50px;
+  grid-column: 2;
+  height: 400px;
+  background-color: #E8CC17;
+  margin-right: 10px;
+  padding: 15px;
+  color: #FFFFFF;
+  text-align: justify;
+  border: 3px solid #FFFFFF;
+}
+  ul#menu_horizontal {
+width : 600px;
+height : 25px;
+list-style-type : none;
+color: #FFFFFF;
+font-family: "Dosis";
+font-size: 15px;
+text-transform: uppercase;
+float: center;
+margin-bottom: 25px;
+}
+a{
+  color:#FFFFFF;
+}
+ul#menu_horizontal li {
+padding : 0 4em;
+}
+li.bouton_gauche {
+float : left;
+}
+.image{
+margin-right: 10px;
+float: left;
+border: 2px solid;
+}
+.social{
+  width: 20px;
+  height: 20px;
+}
+p{
+  font-family: "Helvetica";
+  font-size: 14px;
+  text-align: justify;
+  color: #FFFFFF;
+}
+ul#menu li{
+  padding: 10px;
+  margin-top: 20px;
+  margin-left:10px;
+  list-style-type : none;
+}
+li.bouton_gauche {
+float : left;
+}
+img:hover{
+box-shadow: 2px 4px 3px black; }
+}

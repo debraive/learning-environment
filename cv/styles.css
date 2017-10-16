@@ -1,0 +1,129 @@
+.main{
+  width: 80%;
+  float: center;
+  height: auto;
+  padding-left: 15px;
+  padding-left: 250px;
+}
+.info{
+  font-family: "Dosis";
+  font-size: 45px;
+  padding: 35px;
+  padding-top:50px;
+  height: 70px;
+  line-height: 40px;
+  }
+.competences{
+  font-family: "Dosis";
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-bottom: 50px;
+  margin-left: 100px;
+  margin-top: 30px;
+  width: 60%;
+  padding: 25px;
+  background-color:#F3B200;
+  color: #FFFFFF;
+}
+.mescompetences{
+  font-size: 18px;
+  font-variant: normal;
+  padding-top: 25px;
+
+}
+
+.experience{
+  font-family: "Dosis";
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-top:50px;
+  margin-left: 100px;
+}
+.mesexperiences1{
+  width: 60%;
+  font-family: "helvetica";
+  font-size: 14px;
+  text-transform: none;
+  font-variant: normal;
+  padding-top: 25px;
+  text-align: left;
+}
+.mesexperiences2{
+  width: 68%;
+  font-family: "helvetica";
+  font-size: 14px;
+  text-transform: none;
+  font-variant: normal;
+  margin-left: 100px;
+  text-align: left;
+}
+.formation{
+  font-family: "Dosis";
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-bottom: 50px;
+  margin-left: 50px;
+  margin-top: 50px;
+  width: 60%;
+  margin-left: 350px;
+}
+.mesformations{
+  width: 68%;
+  font-family: "helvetica";
+  font-size: 14px;
+  text-transform: none;
+  font-variant: normal;
+  margin-left: 50px;
+  text-align: left;
+  margin-top: 15px;
+}
+.langue{
+  font-family: "Dosis";
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-bottom: 50px;
+  margin-left: 350px;
+  width: 60%;
+}
+.langues_logiciels{
+  width: 68%;
+  font-family: "helvetica";
+  font-size: 14px;
+  text-transform: none;
+  font-variant: normal;
+  margin-left: 50px;
+  text-align: left;
+  margin-top: 15px;
+}
+.plus{
+  font-family: "Dosis";
+  text-transform: uppercase;
+  font-size: 30px;
+  padding-bottom: 50px;
+  margin-left: 350px;
+  width: 60%;
+}
+.mesplus{
+  width: 60%;
+  font-family: "helvetica";
+  font-size: 14px;
+  text-transform: none;
+  font-variant: normal;
+  margin-left: 50px;
+  text-align: left;
+  margin-top: 15px;
+}
+.rectangle{
+  width: 120px;
+  height: 65px;
+  background-color: #F3B200;
+  font-family: "Dosis";
+  font-size: 15px;
+  color:#FFFFFF;
+  float: right;
+  padding: 5px;
+  margin-top: 50px;
+  padding-top: 25px;
+  padding-left: 15px;
+
+}

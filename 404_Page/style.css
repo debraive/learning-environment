@@ -1,0 +1,42 @@
+.main{
+  width: 100%;
+}
+.error{
+  height: 100px;
+  padding-top: 150px;
+  font-family: "Helvetica";
+  float: center;
+  font-size: 85px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.woops{
+  height: 100px;
+  font-family: "Helvetica";
+  float: center;
+  font-size: 24px;
+  text-align: center;
+}
+.button{
+  width:85px;
+  height:35px;
+  float: center;
+  margin: 0 auto;
+  text-align: center;
+  background-color: black;
+  color:#FFFFFF;
+  font-family: "Helvetica";
+  font-size:16px;
+  padding-top: 15px;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+a {
+  color:#FFFFFF;
+  text-decoration-line: none;
+}
+a:hover
+{
+   text-decoration-line:underline;
+
+}
